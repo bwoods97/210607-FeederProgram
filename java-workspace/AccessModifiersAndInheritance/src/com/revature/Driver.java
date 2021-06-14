@@ -1,7 +1,7 @@
 package com.revature;
 
-import com.revature.model.Candy;
-import com.revature.model.Chocolate;
+import com.revature.model.*;
+
 
 public class Driver {
 	
@@ -24,5 +24,11 @@ public class Driver {
 		myChocolate.setName("Chocolate from main");
 		myChocolate.printChocolate();
 		System.out.println(myChocolate);
+		
+		HardCandy myHardCandy = new HardCandy();
+		myHardCandy.setName("Jawbreaker");
+		System.out.println(myHardCandy.getName());
+		
+		System.out.println(myHardCandy);
 	}
 }
